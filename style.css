@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.men {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 50px;
+  color: black;
+  padding: 20px 60px;
+  background: goldenrod;
+}
+
+/* transform: rotate */
+.rotate1 {
+  transition: transform 2s;
+  width: 300px;
+  height: 200px;
+  margin: 40px;
+  padding: 15px;
+  background: red;
+}
+
+.rotate1:hover {
+  transform: rotate(60deg);
+}
+
+.rotate2 {
+  transition: transform 2s;
+  width: 300px;
+  height: 200px;
+  margin: 40px;
+  padding: 15px;
+  background: red;
+}
+
+.rotate2:hover {
+  transform: rotate(60deg);
+  transform-origin: 25% 50%;
+}
+
+.rotate3 {
+  transition: transform 2s;
+  width: 300px;
+  height: 200px;
+  margin: 40px;
+  padding: 15px;
+  background: red;
+}
+
+.rotate3:hover {
+  transform: rotate(60deg);
+  transform-origin: left bottom;
+}
+
+/* transform: skew */
+.skew1 {
+  transition: transform 2s;
+  width: 300px;
+  height: 200px;
+  margin: 40px;
+  padding: 15px;
+  background: red;
+}
+
+.skew1:hover {
+  transform: skewX(40deg);
+}
+
+.skew2 {
+  transition: transform 2s;
+  width: 300px;
+  height: 200px;
+  margin: 40px;
+  padding: 15px;
+  background: red;
+}
+
+.skew2:hover {
+  transform: skewY(40deg);
+}
+
+.skew3 {
+  transition: transform 2s;
+  width: 300px;
+  height: 200px;
+  margin: 40px;
+  padding: 15px;
+  background: red;
+}
+
+.skew3:hover {
+  transform: skew(40deg, 40deg);
+}
+
+/* transform: translate */
+.translate1 {
+  transition: transform 2s;
+  width: 300px;
+  height: 200px;
+  margin: 40px;
+  padding: 15px;
+  background: red;
+}
+
+.translate1:hover {
+  transform: translateX(100px);
+}
+
+.translate2 {
+  transition: transform 2s;
+  width: 300px;
+  height: 200px;
+  margin: 40px;
+  padding: 15px;
+  background: red;
+}
+
+.translate2:hover {
+  transform: translateY(100px);
+}
+
+.translate3 {
+  transition: transform 2s;
+  width: 300px;
+  height: 200px;
+  margin: 40px;
+  padding: 15px;
+  background: red;
+}
+
+.translate3:hover {
+  transform: translate(50px, 100px);
+}
+
+/* transform: scale */
+.scale1 {
+  transition: transform 2s;
+  width: 300px;
+  height: 200px;
+  margin: 40px;
+  padding: 15px;
+  background: red;
+}
+
+.scale1:hover {
+  transform: scaleX(2);
+}
+
+.scale2 {
+  transition: transform 2s;
+  width: 300px;
+  height: 200px;
+  margin: 40px;
+  padding: 15px;
+  background: red;
+}
+
+.scale2:hover {
+  transform: scaleY(2);
+}
+
+.scale3 {
+  transition: transform 2s;
+  width: 300px;
+  height: 200px;
+  margin: 40px;
+  padding: 15px;
+  background: red;
+}
+
+.scale3:hover {
+  transform: scale(2);
+}
+
+/* transform: rotate X,Y */
+.main {
+  width: 200px;
+  height: 250px;
+  margin: 40px;
+  background: gray;
+}
+
+.rotate-x {
+  transition: transform 2s;
+  width: 200px;
+  height: 250px;
+  padding: 15px;
+  background: pink;
+}
+
+.rotate-x:hover {
+  transform: perspective(500px) rotateX(180deg);
+  transform-origin: right top;
+}
+
+.rotate-y {
+  transition: transform 2s;
+  width: 200px;
+  height: 250px;
+  padding: 15px;
+  background: pink;
+}
+
+.rotate-y:hover {
+  transform: perspective(500px) rotateY(180deg);
+  transform-origin: right top;
+}
+
+/* transform: translate z */
+.translate-z {
+  transition: transform 2s;
+  width: 200px;
+  height: 250px;
+  padding: 15px;
+  background: pink;
+}
+
+.translate-z:hover {
+  transform: perspective(500px) translateZ(200px);
+}
+
+.translate-xyz {
+  transition: transform 2s;
+  width: 200px;
+  height: 250px;
+  padding: 15px;
+  background: pink;
+}
+
+.translate-xyz:hover {
+  transform: perspective(500px) translate3d(30px, 30px, 50px);
+}
+
+/* transform: scale 3d */
+.scale3d {
+  transition: transform 2s;
+  width: 200px;
+  height: 250px;
+  padding: 15px;
+  background: pink;
+}
+
+.scale3d:hover {
+  transform: perspective(700px) scale3d(2, 2, 5) rotateX(60deg);
+}
